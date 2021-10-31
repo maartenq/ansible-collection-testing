@@ -1,0 +1,4 @@
+# .ansible-lint
+
+warn_list:
+  - var-spacing  # Does not work with YAML's Block scalar styles (>, |)

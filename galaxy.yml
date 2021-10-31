@@ -1,0 +1,28 @@
+---
+# galaxy.yml
+
+namespace: maartenq
+name: testing
+version: 0.1.0
+readme: README.md
+authors:
+  - Maarten (@maartenq)
+description: Testing collections development and deployment.
+license:
+  - MIT
+tags:
+  - devel
+repository: https://github.com/maartenq/ansible-collection-testing
+documentation: https://github.com/maartenq/ansible-collection-testing/README.md
+homepage: https://github.com/maartenq/ansible-collection-testing
+issues: https://github.com/maartenq/ansible-collection-testing
+build_ignore:
+  - .ansible-lint
+  - .flake8
+  - .git
+  - .gitignore
+  - .pre-commit-config.yaml
+  - .yamllint
+  - .tox
+  - requirements.txt
+  - tox.ini
