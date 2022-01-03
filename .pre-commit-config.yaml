@@ -5,7 +5,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.1.0
     hooks:
       - id: check-added-large-files
       - id: end-of-file-fixer
@@ -39,12 +39,12 @@ repos:
       - id: flake8
 
   - repo: https://github.com/tox-dev/tox-ini-fmt
-    rev: 0.5.1
+    rev: 0.5.2
     hooks:
       - id: tox-ini-fmt
 
   - repo: https://github.com/ansible/ansible-lint.git
-    rev: v5.3.0
+    rev: v5.3.1
     hooks:
       - id: ansible-lint
         # entry: env ANSIBLE_ROLES_PATH=../  ansible-lint
