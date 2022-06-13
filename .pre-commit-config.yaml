@@ -5,7 +5,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.1.0
+    rev: v4.3.0
     hooks:
       - id: check-added-large-files
       - id: end-of-file-fixer
@@ -29,7 +29,7 @@ repos:
         name: isort (python)
 
   - repo: https://github.com/psf/black
-    rev: 21.12b0
+    rev: 22.3.0
     hooks:
       - id: black
 
@@ -44,7 +44,7 @@ repos:
       - id: tox-ini-fmt
 
   - repo: https://github.com/ansible/ansible-lint.git
-    rev: v5.3.2
+    rev: v6.3.0
     hooks:
       - id: ansible-lint
         # entry: env ANSIBLE_ROLES_PATH=../  ansible-lint
