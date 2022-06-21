@@ -9,7 +9,8 @@ authors:
   - Maarten (@maartenq)
 description: Testing collections development and deployment.
 license:
-  - gpl-3.0
+  - Apache-2.0
+  - MIT
 tags:
   - devel
 repository: https://github.com/maartenq/ansible-collection-testing
