@@ -44,7 +44,7 @@ repos:
       - id: tox-ini-fmt
 
   - repo: https://github.com/ansible/ansible-lint.git
-    rev: v6.5.2
+    rev: v6.6.0
     hooks:
       - id: ansible-lint
         # entry: env ANSIBLE_ROLES_PATH=../  ansible-lint
