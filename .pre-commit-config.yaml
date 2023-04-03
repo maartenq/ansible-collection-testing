@@ -29,7 +29,7 @@ repos:
         name: isort (python)
 
   - repo: https://github.com/psf/black
-    rev: 23.1.0
+    rev: 23.3.0
     hooks:
       - id: black
 
@@ -39,12 +39,12 @@ repos:
       - id: flake8
 
   - repo: https://github.com/tox-dev/tox-ini-fmt
-    rev: 0.6.1
+    rev: 1.0.0
     hooks:
       - id: tox-ini-fmt
 
   - repo: https://github.com/ansible/ansible-lint.git
-    rev: v6.14.2
+    rev: v6.14.4
     hooks:
       - id: ansible-lint
         # entry: env ANSIBLE_ROLES_PATH=../  ansible-lint
